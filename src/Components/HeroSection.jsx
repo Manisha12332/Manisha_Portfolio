@@ -7,7 +7,7 @@ import "./css/herosection.css";  // change CSS to css
 import "./css/sidebar.css";
 import "./css/responsive.css";
 
-import profileImage from "../assets/images/pro.jpeg";
+import profileImage from "../assets/Images/pro.jpeg";
 
 const HeroSection = () => {
   const [showMenu, setShowMenu] = useState(false);
