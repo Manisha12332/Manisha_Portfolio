@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Sidebar from "./Sidebar.jsx";
-import "./css/portfolio.css";    // change CSS to css
+import "./css/portfolio.css";
 import "./css/responsive.css";
 import ProjectCard from "./ProjectCard";
 
@@ -10,15 +10,11 @@ const Portfolio = () => {
 
   return (
     <>
-      {/* ===== MOBILE HEADER ===== */}
       <div className="mobile-header">
         <h3 className="mobile-logo">Manisha</h3>
         <button
           className="hamburger-btn"
-          onClick={() => {
-            console.log("Hamburger clicked!"); // Debug log
-            setShowMenu(true);
-          }}
+          onClick={() => setShowMenu(true)}
           aria-label="Open menu"
         >
           ☰
@@ -26,10 +22,8 @@ const Portfolio = () => {
       </div>
 
       <div style={{ display: "flex" }}>
-        {/* ===== SIDEBAR ===== */}
         <Sidebar showMenu={showMenu} setShowMenu={setShowMenu} />
 
-        {/* ===== MAIN CONTENT ===== */}
         <div
           className="hero-section"
           style={{
@@ -39,7 +33,6 @@ const Portfolio = () => {
             width: "100%",
           }}
         >
-          {/* Best Projects Section */}
           <div className="best-projects-section">
             <h2 className="best-title">A Collection of My Best Projects</h2>
             <p className="best-description">
@@ -56,7 +49,6 @@ const Portfolio = () => {
 
           <hr />
 
-          {/* Project Cards */}
           <div className="projects-grid">
             {[1, 2, 3, 4, 5].map((id) => (
               <ProjectCard key={id} id={id} />
@@ -65,7 +57,6 @@ const Portfolio = () => {
         </div>
       </div>
 
-      {/* ================= Hire Me Popup ================= */}
       {showHireForm && (
         <div className="hire-popup-overlay">
           <div className="hire-popup-box">
