@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import projectImg from "../assets/images/Project1.png";
-import projectImg2 from "../assets/images/Project2.png";
-import projectImg3 from "../assets/images/Project3.png";
-import projectImg4 from "../assets/images/Project4.png";
-import projectImg5 from "../assets/images/Project5.png";
+import projectImg from "../assets/Images/Project1.png";
+import projectImg2 from "../assets/Images/Project2.png";
+import projectImg3 from "../assets/Images/Project3.png";
+import projectImg4 from "../assets/Images/Project4.png";
+import projectImg5 from "../assets/Images/Project5.png";
 import "./css/herosection.css";  // change CSS to css
 
 
