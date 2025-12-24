@@ -7,7 +7,7 @@ import "./css/herosection.css";  // change CSS to css
 import "./css/sidebar.css";
 import "./css/responsive.css";
 
-import profileImage from "../assets/Images/pro.jpeg";
+// import profileImage from "../assets/Images/pro.jpeg";
 
 const HeroSection = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -80,9 +80,9 @@ const HeroSection = () => {
               </div>
             </div>
 
-            <div className="second">
+            {/* <div className="second">
               <img src={profileImage} alt="Profile" />
-            </div>
+            </div> */}
           </div>
 
           {/* Stats */}
