@@ -39,7 +39,7 @@ const Portfolio = () => {
               Explore my projects highlighting my web development and design
               expertise. From interactive applications to visually appealing
               websites, each project demonstrates my commitment to creating
-              innovative, user-friendly solutions.
+              innovative, user-friendly solutions..
             </p>
 
             <button className="hire-btn" onClick={() => setShowHireForm(true)}>
