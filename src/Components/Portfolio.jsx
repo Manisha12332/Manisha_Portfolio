@@ -50,7 +50,7 @@ const Portfolio = () => {
           <hr />
 
           <div className="projects-grid">
-            {[1, 2, 3, 4, 5].map((id) => (
+            {[1, 2, 3, 4].map((id) => (
               <ProjectCard key={id} id={id} />
             ))}
           </div>
